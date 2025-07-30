@@ -7,6 +7,9 @@ This is a Dockerized version of a Zomato Clone Food Delivery Web App. Originally
 - Easy local development and deployment setup
 
 ---
+### 🙌 Credits
+
+Original repo: Tushryadav/Zomato_Clone_Food_Delivery_Web_Application
 
 ## 🚀 How to Run
 
@@ -16,10 +19,6 @@ This is a Dockerized version of a Zomato Clone Food Delivery Web App. Originally
 - Docker Compose
 
 ### Steps
-
-### Credits
-
-Original repo: Tushryadav/Zomato_Clone_Food_Delivery_Web_Application
 
 ```bash
 # Clone the repo
