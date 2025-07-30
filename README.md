@@ -22,8 +22,8 @@ Original repo: https://github.com/codestobecreated/Zomato_Clone_Food_Delivery_We
 
 ```bash
 # Clone the repo
-git clone https://github.com/YourUsername/zomato-clone-dockerized.git
-cd zomato-clone-dockerized
+https://github.com/Tushryadav/Zomato_Clone_Food_Delivery_Web_Application
+cd Zomato_Clone_Food_Delivery_Web_Application
 
 # Run the app
 docker-compose up --build
