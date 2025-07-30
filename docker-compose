@@ -1,0 +1,14 @@
+ version: '3.8'
+
+ services:
+   zomato_web:
+     build: .
+     container_name: zomato_app
+     ports:
+       - "8004:8000"
+     volumes:
+       - .:/app
+     environment:
+       - PYTHONUNBUFFERED=1
+     restart: unless-stopped
+
