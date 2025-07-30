@@ -1,67 +1,30 @@
-# Zomato_Clone_Food_Delivery_Web_Application
+# 🍔 Zomato Clone – Dockerized Food Delivery Web Application
 
-echo "# 🍽️ Zomato Clone – Food Delivery Web Application (Django)
+This is a Dockerized version of a Zomato Clone Food Delivery Web App. Originally forked from [@Tushryadav's repository](https://github.com/Tushryadav/Zomato_Clone_Food_Delivery_Web_Application), this version includes:
 
-This is a full-featured Zomato Clone built with Django. It allows users to browse restaurants, view menus, add to cart, place orders, and leave reviews.
+- `Dockerfile` for containerizing the app
+- `docker-compose.yml` for simplified service orchestration
+- Easy local development and deployment setup
 
-## 🚀 Features
-- User Registration & Login
-- Restaurant and Menu Management
-- Cart and Order System
-- Reviews and Ratings
-- Admin Dashboard
-- REST API Support
+---
 
-## 🛠 Tech Stack
-- Django 5.2.4
-- Django REST Framework 3.16.0
-- Crispy Forms 2.4
-- Pillow 11.3.0 (for image uploads)
-- PyMongo (optional MongoDB support)
-- SQLite (default DB)
+## 🚀 How to Run
 
-## 📦 Requirements
+### Prerequisites
 
-\`\`\`
-asgiref==3.9.1
-Django==5.2.4
-django-crispy-forms==2.4
-djangorestframework==3.16.0
-dnspython==2.7.0
-pillow==11.3.0
-pymongo==4.13.2
-sqlparse==0.5.3
-\`\`\`
+- Docker
+- Docker Compose
 
-## 🧪 How to Run Locally
+### Steps
 
-\`\`\`bash
-git clone https://github.com/your-username/zomato-clone-django.git
-cd zomato-clone-django
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
-\`\`\`
+### Credits
 
-Visit: http://127.0.0.1:8000/
+Original repo: Tushryadav/Zomato_Clone_Food_Delivery_Web_Application
 
-## 📁 Project Structure
+```bash
+# Clone the repo
+git clone https://github.com/YourUsername/zomato-clone-dockerized.git
+cd zomato-clone-dockerized
 
-\`\`\`
-main_app/
-├── models.py
-├── views.py
-├── admin.py
-├── templates/
-└── static/
-manage.py
-requirements.txt
-README.md
-\`\`\`
-
-## 🙋‍♂️ Author
-
-" > README.md && git add README.md && git commit -m "Add README.md" && git push
+# Run the app
+docker-compose up --build
