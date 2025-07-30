@@ -9,7 +9,7 @@ This is a Dockerized version of a Zomato Clone Food Delivery Web App. Originally
 ---
 ### 🙌 Credits
 
-Original repo: Tushryadav/Zomato_Clone_Food_Delivery_Web_Application
+Original repo: https://github.com/codestobecreated/Zomato_Clone_Food_Delivery_Web_Application
 
 ## 🚀 How to Run
 
