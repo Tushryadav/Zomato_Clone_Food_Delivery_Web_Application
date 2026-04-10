@@ -1,19 +1,14 @@
-version: "3"
+ version: '3.8'
 
-services:
-  web:
-    build: .
-    command: gunicorn project.wsgi:application --bind 0.0.0.0:8000
-    volumes:
-      - .:/app
-    ports:
-      - "8000:8000"
-    depends_on:
-      - db
+ services:
+   zomato_web:
+     build: .
+     container_name: zomato_app
+     ports:
+       - "8004:8000"
+     volumes:
+       - .:/app
+     environment:
+       - PYTHONUNBUFFERED=1
+     restart: unless-stopped
 
-  db:
-    image: postgres:13
-    environment:
-      POSTGRES_DB: zomato
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: password
